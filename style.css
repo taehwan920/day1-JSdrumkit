@@ -2,8 +2,9 @@
 
 html {
     font-size: 10px;
-    background: bottom center;
+    background: url(images/live-at-5.jpg) bottom center;
     background-size: cover;
+
 }
 
 body, html{
@@ -16,7 +17,7 @@ body, html{
     min-height: 100vh;
     align-items: center;
     justify-content: center;
-    background: url(images/drum_image.png) center no-repeat;
+    
 }
 
 .key{
