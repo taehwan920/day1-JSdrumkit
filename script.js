@@ -11,6 +11,7 @@ window.addEventListener('click', function (E) {
     const clickTarget = E.target.innerHTML;
     const clickKeycode = clickTarget.charCodeAt(0);
     const clickAudio = document.querySelector(`audio[data-key='${clickKeycode}']`);
+    const key = document.querySelector(`.key[data-key="${clickKeycode}"]`)
     if (!clickAudio) return;
     clickAudio.currentTime = 0;
     clickAudio.play();
